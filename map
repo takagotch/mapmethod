@@ -3,6 +3,6 @@ ary = [ x, y, z ].map{ |e| e.post }
 
 ary = [ x.post, y.post, z.post ]
 
-ary = [ x, y, z ].map(&:name)
+ary = [ x, y, z ].map(&:post)
 
 
